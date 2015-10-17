@@ -1,4 +1,4 @@
-re 'mysql2'
+require 'mysql2'
 
 class DBManager
   def initialize
@@ -10,24 +10,7 @@ class DBManager
   end
 
 
-  def find_next_user
-    @client.query("START TRANSACTION")
-    begin
-      result = @client.query("SELECT twitter_id, cursor_#{@target} FROM users WHERE crawlable_#{@target}=TRUE LIMIT 1").first
-      if result
-        twitter_id = result["twitter_id"]
-        cursor = result["cursor_#{@target}"].to_i
-        set_uncrawlable twitter_id
-      else
-        twitter_id = nil
-        cursor = 0
-      end
-    rescue => e
-      @client.query("ROLLBACK");
-      raise e
-    end
-    @client.query("COMMIT");
-    {twitter_id: twitter_id, cursor: cursor}
+  def get_order_by_order_id order_id
+    @client.query("SELECT * from orders where order_id=\"#{order_id}\"")
   end
 end
-

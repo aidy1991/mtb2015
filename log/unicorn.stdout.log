@@ -1,0 +1,294 @@
+nil
+nil
+"Od345dwc"
+nil
+"Od345dwc"
+#<DBManager:0x00563077430d98
+ @client=
+  #<Mysql2::Client:0x00563077430ca8
+   @current_query_options=
+    {:as=>:hash,
+     :async=>false,
+     :cast_booleans=>false,
+     :symbolize_keys=>false,
+     :database_timezone=>:local,
+     :application_timezone=>nil,
+     :cache_rows=>true,
+     :connect_flags=>2147525125,
+     :cast=>true,
+     :default_file=>nil,
+     :default_group=>nil,
+     :host=>"localhost",
+     :username=>"root",
+     :password=>"",
+     :database=>"mtb"},
+   @query_options=
+    {:as=>:hash,
+     :async=>false,
+     :cast_booleans=>false,
+     :symbolize_keys=>false,
+     :database_timezone=>:local,
+     :application_timezone=>nil,
+     :cache_rows=>true,
+     :connect_flags=>2147525125,
+     :cast=>true,
+     :default_file=>nil,
+     :default_group=>nil,
+     :host=>"localhost",
+     :username=>"root",
+     :password=>"",
+     :database=>"mtb"},
+   @read_timeout=nil>,
+ @mysql_database="mtb",
+ @mysql_host="localhost",
+ @mysql_password="",
+ @mysql_user="root">
+nil
+"Od345dwc"
+#<Mysql2::Result:0x00558b774b8518
+ @query_options=
+  {:as=>:hash,
+   :async=>false,
+   :cast_booleans=>false,
+   :symbolize_keys=>false,
+   :database_timezone=>:local,
+   :application_timezone=>nil,
+   :cache_rows=>true,
+   :connect_flags=>2147525125,
+   :cast=>true,
+   :default_file=>nil,
+   :default_group=>nil,
+   :host=>"localhost",
+   :username=>"root",
+   :password=>"",
+   :database=>"mtb"}>
+"Od345dwc"
+#<Mysql2::Result:0x0056016fe24958
+ @query_options=
+  {:as=>-751819931127289248,
+   :async=>false,
+   :cast_booleans=>false,
+   :symbolize_keys=>false,
+   :database_timezone=>:local,
+   :application_timezone=>nil,
+   :cache_rows=>true,
+   :connect_flags=>2147525125,
+   :cast=>true,
+   :default_file=>nil,
+   :default_group=>nil,
+   :host=>"localhost",
+   :username=>"root",
+   :password=>"",
+   :database=>"mtb"}>
+"Od345dwc"
+#<Mysql2::Result:0x005622a45a8df0
+ @query_options=
+  {:as=>:json,
+   :async=>false,
+   :cast_booleans=>false,
+   :symbolize_keys=>false,
+   :database_timezone=>:local,
+   :application_timezone=>nil,
+   :cache_rows=>true,
+   :connect_flags=>2147525125,
+   :cast=>true,
+   :default_file=>nil,
+   :default_group=>nil,
+   :host=>"localhost",
+   :username=>"root",
+   :password=>"",
+   :database=>"mtb"}>
+"Od345dwc"
+"\"#<Mysql2::Result:0x0055c8f58e6b10>\""
+"Od345dwc"
+"Od345dwc"
+"Od345dwc"
+"Od345dwc"
+#<Mysql2::Result:0x0055abc9868718
+ @query_options=
+  {:as=>:hash,
+   :async=>false,
+   :cast_booleans=>false,
+   :symbolize_keys=>false,
+   :database_timezone=>:local,
+   :application_timezone=>nil,
+   :cache_rows=>true,
+   :connect_flags=>2147525125,
+   :cast=>true,
+   :default_file=>nil,
+   :default_group=>nil,
+   :host=>"localhost",
+   :username=>"root",
+   :password=>"",
+   :database=>"mtb"}>
+{"order_id"=>"Ode4mojy",
+ "order_date"=>915116400,
+ "user_id"=>0,
+ "item_id"=>0,
+ "item_quantity"=>44,
+ "state"=>"見積もり",
+ "tags"=>"センター預かり,1Q予算"}
+"{\"order_id\":\"Ode4mojy\",\"order_date\":915116400,\"user_id\":0,\"item_id\":0,\"item_quantity\":44,\"state\":\"見積もり\",\"tags\":\"センター預かり,1Q予算\"}"
+{"order_id"=>"Odjh0n5i",
+ "order_date"=>915116805,
+ "user_id"=>0,
+ "item_id"=>0,
+ "item_quantity"=>39,
+ "state"=>"配送中",
+ "tags"=>"1Q予算"}
+"{\"order_id\":\"Odjh0n5i\",\"order_date\":915116805,\"user_id\":0,\"item_id\":0,\"item_quantity\":39,\"state\":\"配送中\",\"tags\":\"1Q予算\"}"
+{"order_id"=>"Odovrlaj",
+ "order_date"=>915116863,
+ "user_id"=>0,
+ "item_id"=>0,
+ "item_quantity"=>6,
+ "state"=>"保留",
+ "tags"=>"4Q予算"}
+"{\"order_id\":\"Odovrlaj\",\"order_date\":915116863,\"user_id\":0,\"item_id\":0,\"item_quantity\":6,\"state\":\"保留\",\"tags\":\"4Q予算\"}"
+{"order_id"=>"Oducviz1",
+ "order_date"=>915117172,
+ "user_id"=>0,
+ "item_id"=>0,
+ "item_quantity"=>37,
+ "state"=>"処理中",
+ "tags"=>"週末納品"}
+"{\"order_id\":\"Oducviz1\",\"order_date\":915117172,\"user_id\":0,\"item_id\":0,\"item_quantity\":37,\"state\":\"処理中\",\"tags\":\"週末納品\"}"
+{"order_id"=>"Odzwcg70",
+ "order_date"=>915117256,
+ "user_id"=>0,
+ "item_id"=>0,
+ "item_quantity"=>17,
+ "state"=>"配送中",
+ "tags"=>"臨時"}
+"{\"order_id\":\"Odzwcg70\",\"order_date\":915117256,\"user_id\":0,\"item_id\":0,\"item_quantity\":17,\"state\":\"配送中\",\"tags\":\"臨時\"}"
+{"order_id"=>"Od5ikcx3",
+ "order_date"=>915117288,
+ "user_id"=>0,
+ "item_id"=>0,
+ "item_quantity"=>31,
+ "state"=>"保留",
+ "tags"=>"予定納品,月末納品"}
+"{\"order_id\":\"Od5ikcx3\",\"order_date\":915117288,\"user_id\":0,\"item_id\":0,\"item_quantity\":31,\"state\":\"保留\",\"tags\":\"予定納品,月末納品\"}"
+{"order_id"=>"Odb6r980",
+ "order_date"=>915117483,
+ "user_id"=>0,
+ "item_id"=>0,
+ "item_quantity"=>42,
+ "state"=>"配送中",
+ "tags"=>"予定納品,2Q予算,郵送"}
+"{\"order_id\":\"Odb6r980\",\"order_date\":915117483,\"user_id\":0,\"item_id\":0,\"item_quantity\":42,\"state\":\"配送中\",\"tags\":\"予定納品,2Q予算,郵送\"}"
+{"order_id"=>"Odgxb52e",
+ "order_date"=>915117706,
+ "user_id"=>0,
+ "item_id"=>0,
+ "item_quantity"=>13,
+ "state"=>"見積もり",
+ "tags"=>"一括納品"}
+"{\"order_id\":\"Odgxb52e\",\"order_date\":915117706,\"user_id\":0,\"item_id\":0,\"item_quantity\":13,\"state\":\"見積もり\",\"tags\":\"一括納品\"}"
+{"order_id"=>"Odmq80g9",
+ "order_date"=>915118104,
+ "user_id"=>0,
+ "item_id"=>0,
+ "item_quantity"=>34,
+ "state"=>"納品",
+ "tags"=>"予定納品,センター預かり,臨時,持ち込み"}
+"{\"order_id\":\"Odmq80g9\",\"order_date\":915118104,\"user_id\":0,\"item_id\":0,\"item_quantity\":34,\"state\":\"納品\",\"tags\":\"予定納品,センター預かり,臨時,持ち込み\"}"
+{"order_id"=>"Odslhvdl",
+ "order_date"=>915118311,
+ "user_id"=>0,
+ "item_id"=>0,
+ "item_quantity"=>28,
+ "state"=>"キャンセル",
+ "tags"=>"宅配便"}
+"{\"order_id\":\"Odslhvdl\",\"order_date\":915118311,\"user_id\":0,\"item_id\":0,\"item_quantity\":28,\"state\":\"キャンセル\",\"tags\":\"宅配便\"}"
+"Od345dwc"
+#<Mysql2::Result:0x0055d6a3154c38
+ @query_options=
+  {:as=>:hash,
+   :async=>false,
+   :cast_booleans=>false,
+   :symbolize_keys=>false,
+   :database_timezone=>:local,
+   :application_timezone=>nil,
+   :cache_rows=>true,
+   :connect_flags=>2147525125,
+   :cast=>true,
+   :default_file=>nil,
+   :default_group=>nil,
+   :host=>"localhost",
+   :username=>"root",
+   :password=>"",
+   :database=>"mtb"}>
+"Od345dwc"
+#<Mysql2::Result:0x0055d6a31c7d28
+ @query_options=
+  {:as=>:hash,
+   :async=>false,
+   :cast_booleans=>false,
+   :symbolize_keys=>false,
+   :database_timezone=>:local,
+   :application_timezone=>nil,
+   :cache_rows=>true,
+   :connect_flags=>2147525125,
+   :cast=>true,
+   :default_file=>nil,
+   :default_group=>nil,
+   :host=>"localhost",
+   :username=>"root",
+   :password=>"",
+   :database=>"mtb"}>
+"Ode4mojy"
+#<Mysql2::Result:0x00560b0e0cbda8
+ @query_options=
+  {:as=>:hash,
+   :async=>false,
+   :cast_booleans=>false,
+   :symbolize_keys=>false,
+   :database_timezone=>:local,
+   :application_timezone=>nil,
+   :cache_rows=>true,
+   :connect_flags=>2147525125,
+   :cast=>true,
+   :default_file=>nil,
+   :default_group=>nil,
+   :host=>"localhost",
+   :username=>"root",
+   :password=>"",
+   :database=>"mtb"}>
+#<Mysql2::Result:0x00560b0e10c768
+ @query_options=
+  {:as=>:hash,
+   :async=>false,
+   :cast_booleans=>false,
+   :symbolize_keys=>false,
+   :database_timezone=>:local,
+   :application_timezone=>nil,
+   :cache_rows=>true,
+   :connect_flags=>2147525125,
+   :cast=>true,
+   :default_file=>nil,
+   :default_group=>nil,
+   :host=>"localhost",
+   :username=>"root",
+   :password=>"",
+   :database=>"mtb"}>
+nil
+nil
+#<Mysql2::Result:0x00558d30b68ba0
+ @query_options=
+  {:as=>:hash,
+   :async=>false,
+   :cast_booleans=>false,
+   :symbolize_keys=>false,
+   :database_timezone=>:local,
+   :application_timezone=>nil,
+   :cache_rows=>true,
+   :connect_flags=>2147525125,
+   :cast=>true,
+   :default_file=>nil,
+   :default_group=>nil,
+   :host=>"localhost",
+   :username=>"root",
+   :password=>"",
+   :database=>"mtb"}>
+nil
