@@ -1,0 +1,252 @@
+I, [2015-10-17T07:23:55.393725 #11331]  INFO -- : listening on addr=/home/player//tmp/unicorn.sock fd=10
+I, [2015-10-17T07:23:55.393917 #11331]  INFO -- : worker=0 spawning...
+I, [2015-10-17T07:23:55.394433 #11331]  INFO -- : master process ready
+I, [2015-10-17T07:23:55.407896 #11334]  INFO -- : worker=0 spawned pid=11334
+I, [2015-10-17T07:23:55.408072 #11334]  INFO -- : Refreshing Gem list
+I, [2015-10-17T07:23:55.437571 #11334]  INFO -- : worker=0 ready
+210.253.182.98 - - [17/Oct/2015:07:25:35 +0000] "GET / HTTP/1.0" 200 12 0.0073
+210.253.182.98 - - [17/Oct/2015:07:25:35 +0000] "GET /favicon.ico HTTP/1.0" 404 509 0.0010
+I, [2015-10-17T07:35:37.730003 #11331]  INFO -- : reaped #<Process::Status: pid 11334 exit 0> worker=0
+I, [2015-10-17T07:35:37.730100 #11331]  INFO -- : master complete
+I, [2015-10-17T07:35:40.693107 #11487]  INFO -- : unlinking existing socket=/home/player//tmp/unicorn.sock
+I, [2015-10-17T07:35:40.693310 #11487]  INFO -- : listening on addr=/home/player//tmp/unicorn.sock fd=10
+I, [2015-10-17T07:35:40.693414 #11487]  INFO -- : worker=0 spawning...
+I, [2015-10-17T07:35:40.693930 #11487]  INFO -- : master process ready
+I, [2015-10-17T07:35:40.706897 #11490]  INFO -- : worker=0 spawned pid=11490
+I, [2015-10-17T07:35:40.707069 #11490]  INFO -- : Refreshing Gem list
+I, [2015-10-17T07:35:40.736100 #11490]  INFO -- : worker=0 ready
+210.253.182.98 - - [17/Oct/2015:07:35:45 +0000] "GET / HTTP/1.0" 200 19 0.0072
+210.253.182.98, 66.102.7.167 - - [17/Oct/2015:07:45:46 +0000] "GET / HTTP/1.0" 200 19 0.0007
+210.253.182.98, 66.102.7.153 - - [17/Oct/2015:07:45:47 +0000] "GET /favicon.ico HTTP/1.0" 404 509 0.0009
+210.253.182.98 - - [17/Oct/2015:08:05:00 +0000] "GET / HTTP/1.0" 200 19 0.0007
+210.253.182.98 - - [17/Oct/2015:08:05:01 +0000] "GET / HTTP/1.0" 200 19 0.0007
+I, [2015-10-17T08:05:36.633867 #11487]  INFO -- : reaped #<Process::Status: pid 11490 exit 0> worker=0
+I, [2015-10-17T08:05:36.633980 #11487]  INFO -- : master complete
+I, [2015-10-17T08:05:36.811652 #12252]  INFO -- : unlinking existing socket=/home/player//tmp/unicorn.sock
+I, [2015-10-17T08:05:36.811847 #12252]  INFO -- : listening on addr=/home/player//tmp/unicorn.sock fd=10
+I, [2015-10-17T08:05:36.811950 #12252]  INFO -- : worker=0 spawning...
+I, [2015-10-17T08:05:36.812467 #12252]  INFO -- : master process ready
+I, [2015-10-17T08:05:36.825412 #12255]  INFO -- : worker=0 spawned pid=12255
+I, [2015-10-17T08:05:36.825579 #12255]  INFO -- : Refreshing Gem list
+I, [2015-10-17T08:05:36.853851 #12255]  INFO -- : worker=0 ready
+210.253.182.98 - - [17/Oct/2015:08:05:38 +0000] "GET / HTTP/1.0" 200 - 0.0067
+I, [2015-10-17T08:06:31.698808 #12252]  INFO -- : reaped #<Process::Status: pid 12255 exit 0> worker=0
+I, [2015-10-17T08:06:31.698921 #12252]  INFO -- : master complete
+I, [2015-10-17T08:06:31.886439 #12519]  INFO -- : unlinking existing socket=/home/player//tmp/unicorn.sock
+I, [2015-10-17T08:06:31.886666 #12519]  INFO -- : listening on addr=/home/player//tmp/unicorn.sock fd=10
+I, [2015-10-17T08:06:31.886777 #12519]  INFO -- : worker=0 spawning...
+I, [2015-10-17T08:06:31.887294 #12519]  INFO -- : master process ready
+I, [2015-10-17T08:06:31.900708 #12522]  INFO -- : worker=0 spawned pid=12522
+I, [2015-10-17T08:06:31.900876 #12522]  INFO -- : Refreshing Gem list
+I, [2015-10-17T08:06:31.931340 #12522]  INFO -- : worker=0 ready
+210.253.182.98 - - [17/Oct/2015:08:06:38 +0000] "GET / HTTP/1.0" 404 - 0.0066
+210.253.182.98 - - [17/Oct/2015:08:06:40 +0000] "GET / HTTP/1.0" 404 - 0.0007
+2015-10-17 08:06:53 - NameError - undefined local variable or method `orderId' for #<MainApp:0x00558ed3aad3d8>:
+	/home/player/main.rb:11:in `block in <class:MainApp>'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1610:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1610:in `block in compile!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `[]'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (3 levels) in route!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:993:in `route_eval'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (2 levels) in route!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1014:in `block in process_route'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `catch'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `process_route'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:972:in `block in route!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `each'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `route!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1084:in `block in dispatch!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1081:in `dispatch!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `block in call!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `call!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:894:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/nulllogger.rb:9:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/show_exceptions.rb:21:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:181:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:2021:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `block in call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1795:in `synchronize'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/tempfile_reaper.rb:15:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/commonlogger.rb:33:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:218:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/chunked.rb:54:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+	/usr/local/rbenv/versions/2.2.2/bin/unicorn:23:in `load'
+	/usr/local/rbenv/versions/2.2.2/bin/unicorn:23:in `<main>'
+210.253.182.98 - - [17/Oct/2015:08:06:53 +0000] "GET /getOrder/:orderId HTTP/1.0" 500 151718 0.0365
+210.253.182.98 - - [17/Oct/2015:08:06:53 +0000] "GET /__sinatra__/500.png HTTP/1.0" 200 24378 0.0032
+2015-10-17 08:07:06 - NameError - undefined local variable or method `orderId' for #<MainApp:0x00558ed3efd258>:
+	/home/player/main.rb:11:in `block in <class:MainApp>'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1610:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1610:in `block in compile!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `[]'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (3 levels) in route!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:993:in `route_eval'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (2 levels) in route!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1014:in `block in process_route'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `catch'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `process_route'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:972:in `block in route!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `each'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `route!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1084:in `block in dispatch!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1081:in `dispatch!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `block in call!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `call!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:894:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/nulllogger.rb:9:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/show_exceptions.rb:21:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:181:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:2021:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `block in call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1795:in `synchronize'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/tempfile_reaper.rb:15:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/commonlogger.rb:33:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:218:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/chunked.rb:54:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+	/usr/local/rbenv/versions/2.2.2/bin/unicorn:23:in `load'
+	/usr/local/rbenv/versions/2.2.2/bin/unicorn:23:in `<main>'
+210.253.182.98 - - [17/Oct/2015:08:07:06 +0000] "GET /getOrder/10 HTTP/1.0" 500 151688 0.0250
+I, [2015-10-17T08:07:47.458700 #12519]  INFO -- : reaped #<Process::Status: pid 12522 exit 0> worker=0
+I, [2015-10-17T08:07:47.458807 #12519]  INFO -- : master complete
+I, [2015-10-17T08:07:47.648663 #12628]  INFO -- : unlinking existing socket=/home/player//tmp/unicorn.sock
+I, [2015-10-17T08:07:47.648891 #12628]  INFO -- : listening on addr=/home/player//tmp/unicorn.sock fd=10
+I, [2015-10-17T08:07:47.649007 #12628]  INFO -- : worker=0 spawning...
+I, [2015-10-17T08:07:47.649668 #12628]  INFO -- : master process ready
+I, [2015-10-17T08:07:47.662823 #12631]  INFO -- : worker=0 spawned pid=12631
+I, [2015-10-17T08:07:47.663001 #12631]  INFO -- : Refreshing Gem list
+I, [2015-10-17T08:07:47.693581 #12631]  INFO -- : worker=0 ready
+210.253.182.98 - - [17/Oct/2015:08:07:53 +0000] "GET /getOrder/10 HTTP/1.0" 200 8 0.0073
+210.253.182.98 - - [17/Oct/2015:08:08:08 +0000] "GET /getOrder/10 HTTP/1.0" 200 8 0.0008
+210.253.182.98 - - [17/Oct/2015:08:08:08 +0000] "GET /favicon.ico HTTP/1.0" 404 509 0.0009
+I, [2015-10-17T08:08:33.157335 #12628]  INFO -- : reaped #<Process::Status: pid 12631 exit 0> worker=0
+I, [2015-10-17T08:08:33.157443 #12628]  INFO -- : master complete
+I, [2015-10-17T08:08:33.342616 #12707]  INFO -- : unlinking existing socket=/home/player//tmp/unicorn.sock
+I, [2015-10-17T08:08:33.342816 #12707]  INFO -- : listening on addr=/home/player//tmp/unicorn.sock fd=10
+I, [2015-10-17T08:08:33.342930 #12707]  INFO -- : worker=0 spawning...
+I, [2015-10-17T08:08:33.343466 #12707]  INFO -- : master process ready
+I, [2015-10-17T08:08:33.356852 #12710]  INFO -- : worker=0 spawned pid=12710
+I, [2015-10-17T08:08:33.357192 #12710]  INFO -- : Refreshing Gem list
+I, [2015-10-17T08:08:33.387487 #12710]  INFO -- : worker=0 ready
+2015-10-17 08:08:34 - NameError - undefined local variable or method `param' for #<MainApp:0x00563aa48f0248>:
+	/home/player/main.rb:11:in `block in <class:MainApp>'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1610:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1610:in `block in compile!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `[]'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (3 levels) in route!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:993:in `route_eval'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:974:in `block (2 levels) in route!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1014:in `block in process_route'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `catch'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1012:in `process_route'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:972:in `block in route!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `each'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:971:in `route!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1084:in `block in dispatch!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1081:in `dispatch!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `block in call!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `block in invoke'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `catch'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1066:in `invoke'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:906:in `call!'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:894:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/xss_header.rb:18:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/path_traversal.rb:16:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/json_csrf.rb:18:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/base.rb:49:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-protection-1.5.3/lib/rack/protection/frame_options.rb:31:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/nulllogger.rb:9:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/head.rb:13:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/show_exceptions.rb:21:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:181:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:2021:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `block in call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1795:in `synchronize'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:1486:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/tempfile_reaper.rb:15:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:49:in `_call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/lint.rb:37:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/showexceptions.rb:24:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/commonlogger.rb:33:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/sinatra-1.4.6/lib/sinatra/base.rb:218:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/chunked.rb:54:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/rack-1.6.4/lib/rack/content_length.rb:15:in `call'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:580:in `process_client'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:674:in `worker_loop'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:529:in `spawn_missing_workers'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/lib/unicorn/http_server.rb:140:in `start'
+	/usr/local/rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/unicorn-4.9.0/bin/unicorn:126:in `<top (required)>'
+	/usr/local/rbenv/versions/2.2.2/bin/unicorn:23:in `load'
+	/usr/local/rbenv/versions/2.2.2/bin/unicorn:23:in `<main>'
+210.253.182.98 - - [17/Oct/2015:08:08:34 +0000] "GET /getOrder/10 HTTP/1.0" 500 151800 0.0395
+210.253.182.98 - - [17/Oct/2015:08:08:34 +0000] "GET /__sinatra__/500.png HTTP/1.0" 304 - 0.0033
+I, [2015-10-17T08:08:54.589143 #12707]  INFO -- : reaped #<Process::Status: pid 12710 exit 0> worker=0
+I, [2015-10-17T08:08:54.589256 #12707]  INFO -- : master complete
+I, [2015-10-17T08:08:54.777498 #12786]  INFO -- : unlinking existing socket=/home/player//tmp/unicorn.sock
+I, [2015-10-17T08:08:54.777721 #12786]  INFO -- : listening on addr=/home/player//tmp/unicorn.sock fd=10
+I, [2015-10-17T08:08:54.777826 #12786]  INFO -- : worker=0 spawning...
+I, [2015-10-17T08:08:54.778353 #12786]  INFO -- : master process ready
+I, [2015-10-17T08:08:54.791874 #12789]  INFO -- : worker=0 spawned pid=12789
+I, [2015-10-17T08:08:54.792050 #12789]  INFO -- : Refreshing Gem list
+I, [2015-10-17T08:08:54.822286 #12789]  INFO -- : worker=0 ready
+210.253.182.98 - - [17/Oct/2015:08:08:57 +0000] "GET /getOrder/10 HTTP/1.0" 200 2 0.0072
+I, [2015-10-17T09:12:22.141972 #12786]  INFO -- : reaped #<Process::Status: pid 12789 exit 0> worker=0
+I, [2015-10-17T09:12:22.142067 #12786]  INFO -- : master complete
+I, [2015-10-17T09:12:24.806515 #14687]  INFO -- : unlinking existing socket=/home/player/mtb//tmp/unicorn.sock
+I, [2015-10-17T09:12:24.806723 #14687]  INFO -- : listening on addr=/home/player/mtb//tmp/unicorn.sock fd=10
+I, [2015-10-17T09:12:24.806828 #14687]  INFO -- : worker=0 spawning...
+I, [2015-10-17T09:12:24.807345 #14687]  INFO -- : master process ready
+I, [2015-10-17T09:12:24.820370 #14690]  INFO -- : worker=0 spawned pid=14690
+I, [2015-10-17T09:12:24.820537 #14690]  INFO -- : Refreshing Gem list
+I, [2015-10-17T09:12:24.849159 #14690]  INFO -- : worker=0 ready
+210.253.182.98 - - [17/Oct/2015:09:12:30 +0000] "GET /getOrder/10 HTTP/1.0" 200 2 0.0072
+210.253.182.98 - - [17/Oct/2015:09:12:31 +0000] "GET /getOrder/10 HTTP/1.0" 200 2 0.0008
