@@ -13,7 +13,7 @@ class MainApp < Sinatra::Base
     status 200
 
     db = DBManager.new
-    order = db.get_order_by_order_id "Od345dwc"
+    order = db.get_order_by_order_id pamars[:orderId]
     pp order
     pp order.first
     "#{order.to_json}"
